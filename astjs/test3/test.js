@@ -303,3 +303,280 @@ function getNumber19() {
 function getNumber20() {
     return 1;
 }
+
+
+
+
+
+var a = (getNumber1() + (getNumber2() + getNumber3())) * getNumber4();
+var b = getNumber5();
+var c = getNumber6();
+log(a);
+log(b);
+log(c);
+
+if ((getBool1() || getBool2()) && (getBool3() || getBool4())) {
+    log(a);
+    log(b);
+    log(c);
+    var a = (getNumber7() + (getNumber8() + getNumber9())) * getNumber10();
+    var b = getNumber11() + 23;
+    var c = getNumber12() + b++;
+    log(a);
+    log(b);
+    log(c);
+    c = getNumber12() + b * 2;
+    if ((getBool5() || getBool56()) && (getBool5() || getBool6())) {
+        log(a);
+        log(b);
+        log(c);
+        var a = (getNumber14() + (getNumber15() + getNumber16())) * getNumber17();
+        var b = getNumber18() * 23;
+        var c = getNumber19() - b++;
+        log(a);
+        log(b);
+        log(c);
+        c = getNumber12() + --b * 2;
+        if ((getBool7() || getBool8()) && (getBool9() || getBool10())) {
+            log(a);
+            log(b);
+            log(c);
+            var a = 12;
+            var b = a * 23;
+            var c = b++;
+            log(a);
+            log(b);
+            log(c);
+            if ((getBool11() || getBool12()) && (getBool13() || getBool14())) {
+                log(a);
+                log(b);
+                log(c);
+                var a = 12 + 23 - 2 * 6;
+                var b = a * 23;
+                var c = b++;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                log(a);
+                log(b);
+                log(c);
+                var a = 12;
+                var b = a * 23;
+                var c = b++;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            var a = 12;
+            var f = a * 23;
+            var c = b++;
+            if ((getBool15() || getBool16()) && (getBool17() || getBool18())) {
+                log(a);
+                log(f);
+                log(c);
+            } else {
+                log(a);
+                log(b);
+                log(c);
+                var a = 52;
+                var b = a * 23;
+                var c = b++;
+                log(a);
+                log(b);
+                log(c);
+            }
+        }
+        log(a);
+        log(b);
+        log(c);
+        var a = 12;
+        var b = (2 + a) * 23;
+        var c = b++;
+        log(a);
+        log(b);
+        log(c);
+    } else {
+        log(a);
+        log(b);
+        log(c);
+        var a = 12;
+        var b = a * 23;
+        var c = b++;
+        log(a);
+        log(b);
+        log(c);
+        if ((getBool19() || getBool20()) && (getBool21() || getBool22())) {
+            for (var a = 20; a > getNumber19(); i--) {
+                b = a * 2 + 1 + b;
+                log(b);
+                log(c);
+            }
+            if ((getBool23() || getBool24()) && (getBool25() || getBool26())) {
+                var b = '23';
+                while (len(b) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        b = b + 1;
+                        log(b);
+                    };
+                    b += 11;
+                }
+            } else {
+                var bb = '23'
+                while (len(bb) < 10 || getBool57()  && getBool55()) {
+                    if (4 >= 3) {
+                        bb = bb + 1;
+                        log(bb);
+                    };
+                    if ((getBool27() || getBool28()) && (getBool29() || getBool30())) {
+                        log(a);
+                        log(b);
+                        log(c);
+                        var a = 42;
+                        var b = a * 5223.2;
+                        var c = b * a - b;
+                        log(a);
+                        log(b);
+                        log(c);
+                    } else {
+                        log(--a + c);
+                        log((b + 300.3) * b / --c);
+                        log(c * 322);
+                    }
+                    bb += 11;
+                }
+                log(a);
+                log(b);
+                log(c);
+                var a = 32;
+                var b = a * 123;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            if ((getBool27() || getBool28()) && (getBool29() || getBool30())) {
+                log(a);
+                log(b);
+                log(c);
+                var a = 42;
+                var b = a * 223.2;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                log(a);
+                log(b);
+                log(c);
+                var a = 32;
+                var b = a * 123;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }   
+        }
+    }
+} else {
+    if ((getBool31() || getBool32()) && (getBool33() || getBool34())) {
+        log(a);
+                log(b);
+                log(c);
+                var a = 322;
+                var b = a * 123 - a;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+        if ((getBool35() || getBool36()) && (getBool37() || getBool38())) {
+            log(a);
+                log(b);
+                log(c);
+                var a = 332;
+                var b = a * 223;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            if ((getBool39() || getBool40()) && (getBool41() || getBool42())) {
+                log(a);
+                log(b);
+                log(c);
+                var a = 332;
+                var b = a * 123;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                log(a);
+                log(b);
+                log(c);
+                var a = 32;
+                var b = a * 123;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            log(a);
+                log(b);
+                log(c);
+        }
+    } else {
+        if ((getBool43() || getBool44()) && (getBool45() || getBool46()) && getNumber20() > getNumber21()) {
+            log(a);
+                log(b);
+                log(c);
+            if ((getBool47() || getBool48()) && (getBool49() || getBool50())) {
+                log(a);
+                log(b);
+                log(c);
+                var a = 4232;
+                var b = a / 123;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                log(a);
+                log(b);
+                log(c);
+                var a = 22.32;
+                var b = a / 123;
+                var c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            if ((getBool51() || getBool52()) && (getBool53() || getBool54())) {
+                log(a);
+                log(b);
+                log(c);
+                var a = 34232;
+                var b = a / 123;
+                var c = b * a + b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                log(a);
+                log(b);
+                log(c);
+                var a = 4232;
+                var b = a / 123;
+                var c = 3 * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        }
+    }
+}
+
+logRes();

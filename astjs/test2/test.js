@@ -305,3 +305,327 @@ function getNumber19() {
 function getNumber20() {
     return 1;
 }
+
+
+
+
+
+let a = (getNumber1() + (getNumber2() + getNumber3())) * getNumber4();
+let b = getNumber5();
+let c = getNumber6();
+log(a);
+log(b);
+log(c);
+
+if ((getBool1() || getBool2()) && (getBool3() || getBool4())) {
+    log(a);
+    log(b);
+    log(c);
+    a = (getNumber7() + (getNumber8() + getNumber9())) * getNumber10();
+    b = getNumber11() + 23;
+    c = getNumber12() + b++;
+    log(a);
+    log(b);
+    log(c);
+    c = getNumber12() + b * 2;
+    if ((getBool5() || getBool56()) && (getBool5() || getBool6())) {
+        log(a);
+        log(b);
+        log(c);
+        a = (getNumber14() + (getNumber15() + getNumber16())) * getNumber17();
+        b = getNumber18() * 23;
+        c = getNumber19() - b++;
+        log(a);
+        log(b);
+        log(c);
+        c = getNumber12() + --b * 2;
+        let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+        if ((getBool7() || getBool8()) && (getBool9() || getBool10())) {
+            
+            let a = 12;
+            let b = a * 23;
+            let c = b++;
+            log(a);
+            log(b);
+            log(c);
+            let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            if ((getBool11() || getBool12()) && (getBool13() || getBool14())) {
+                
+                let a = 12 + 23 - 2 * 6;
+                let b = a * 23;
+                let c = b++;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+                let a = 12;
+                let b = a * 23;
+                let c = b++;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            let a = 12;
+            let f = a * 23;
+            let c = b++;
+            if ((getBool15() || getBool16()) && (getBool17() || getBool18())) {
+                log(a);
+                log(f);
+                log(c);
+            } else {
+                
+                let a = 52;
+                let b = a * 23;
+                let c = b++;
+                log(a);
+                log(b);
+                log(c);
+            }
+        }
+    } else {
+        log(a);
+        log(b);
+        log(c);
+        a = 12;
+         b = a * 23;
+         c = b++;
+        log(a);
+        log(b);
+        log(c);
+        if ((getBool19() || getBool20()) && (getBool21() || getBool22())) {
+
+            let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            for (let a = 20; a > getNumber19(); i--) {
+                b = a * 2 + 1 + b;
+                log(b);
+                log(c);
+            }
+            if ((getBool23() || getBool24()) && (getBool25() || getBool26())) {
+                let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            } else {
+                let bb = '23___'
+                while (len(bb) < 40 || getBool57()  && getBool55()) {
+                    if (4 >= 3) {
+                        bb = bb + 1;
+                        log(bb);
+                    };
+                    if ((getBool27() || getBool28()) && (getBool29() || getBool30())) {
+                        
+                        let a = 42;
+                        let b = a * 5223.2;
+                        let c = b * a - b;
+                        log(a);
+                        log(b);
+                        log(c);
+                    } else {
+                        log(--a + c);
+                        log((b + 300.3) * b / --c);
+                        log(c * 322);
+                    }
+                    bb += 11;
+                }
+                
+                let a = 32;
+                let b = a * 123;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+
+            if ((getBool27() || getBool28()) && (getBool29() || getBool30())) {
+                
+                let a = 42;
+                let b = a * 223.2;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                
+                let a = 32;
+                let b = a * 123;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }   
+        }
+    }
+} else {
+    let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+    if ((getBool31() || getBool32()) && (getBool33() || getBool34())) {
+        
+                let a = 322;
+                let b = a * 123 - a;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+                let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+        if ((getBool35() || getBool36()) && (getBool37() || getBool38())) {
+            
+                let a = 332;
+                let b = a * 223;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+                let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            if ((getBool39() || getBool40()) && (getBool41() || getBool42())) {
+                
+                let a = 332;
+                let b = a * 123;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+                let a = 32;
+                let b = a * 123;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            log(a);
+                log(b);
+                log(c);
+        }
+    } else {
+        if ((getBool43() || getBool44()) && (getBool45() || getBool46()) && getNumber20() > getNumber21()) {
+            let bc = '23***';
+                while (len(bc) < 10 && getBool55()) {
+                    if (4 >= 3) {
+                        bc = bc + 1;
+                        log(bc);
+                    };
+                    bc += 11;
+                }
+            log(a);
+                log(b);
+                log(c);
+            if ((getBool47() || getBool48()) && (getBool49() || getBool50())) {
+                
+                let a = 4232;
+                let b = a / 123;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                
+                let a = 22.32;
+                let b = a / 123;
+                let c = b * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        } else {
+            if ((getBool51() || getBool52()) && (getBool53() || getBool54())) {
+                
+                let a = 34232;
+                let b = a / 123;
+                let c = b * a + b;
+                log(a);
+                log(b);
+                log(c);
+            } else {
+                
+                let a = 4232;
+                let b = a / 123;
+                let c = 3 * a - b;
+                log(a);
+                log(b);
+                log(c);
+            }
+        }
+    }
+}
+
+logRes();

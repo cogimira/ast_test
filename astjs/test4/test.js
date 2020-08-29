@@ -129,3 +129,38 @@ function getNumberOffset() {
 function log2(value) {
 
 };
+
+let a = 1;
+if(a > getNumber()) {
+    let a = getNumber3();
+    log('this is a number');
+} else {
+    a = getNumber4();
+
+    for(var i = getNumber2() || getNumber() && getNumber3(), j = 22; i < 10, j > 2; i++, --j) {
+        log(i) || log(i + "i__");
+        if(getNumber3() > 10) {
+            a = a + "999";
+        } else {
+            a = toInt(a);
+        }
+    }
+    log(i);
+    log(j);
+    log(a + getNumber3() + getStr1());
+}
+
+
+let b = '23';
+while(len(b) < 10 && getBool1()) {
+    if(4 >= 3) {
+        b = b + 1;
+        log(b);
+    };
+    b += 11;
+}
+logRes();
+
+
+//-----------------------------------
+
